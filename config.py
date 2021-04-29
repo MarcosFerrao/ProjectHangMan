@@ -1,0 +1,2 @@
+TENTATIVAS_ADICIONAIS = 2
+ARQUIVO_PALAVRAS_SECRETAS = 'palavras_secretas.txt'
