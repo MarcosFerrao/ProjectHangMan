@@ -8,8 +8,8 @@ def gerar_palavra_secreta():
     :return: uma palavra aleatoria
     """
     with open(ARQUIVO_PALAVRAS_SECRETAS, 'r') as file_object:
-        palavra = file_object.read().splitlines()
-    return random.choice(palavra)
+        palavras = file_object.read().splitlines()
+    return random.choice(palavras)
 
 
 def verifica_letra_informada(palavra_secreta, suas_tentativas, tentativa):
